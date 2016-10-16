@@ -1,0 +1,240 @@
+@charset "uft-8";
+
+body {
+    padding-top: 50px;
+    font-family: sans-serif;
+    background-color: #fff;
+
+}
+
+
+.link-invisivel {
+    position: absolute;
+    text-indent: -9999px;
+}
+
+.navbar-inverse {
+   background-color: #000; 
+   color: #fff;
+   
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  
+  box-shadow: 0 0 2px rgba(0,0,0,0.3);
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: .1em;
+}
+
+
+.navbar-brand{
+    padding-top: 0px;
+}
+
+
+#home{
+    background: url(../img/BlueSpace.png) no-repeat fixed;
+   /* opacity: 0.8;*/
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    background-size:cover;
+    padding-bottom: 4em;
+    background-color: #046380;
+    box-shadow:0 1px 3px rgba(0,0,0,.12);
+}
+
+
+
+#home h1{
+    font-size: 4em;
+    color: #fff;
+    letter-spacing: .1em;
+    line-height: 1.5em;
+    border-color: rgba(0,0,0,.12);
+    text-transform: uppercase;
+}
+
+.titulo{
+    text-transform: uppercase;
+    line-height: 1.4em;
+    font-weight: 400;
+    font-size: 3    .5em;
+    font-weight: 500;
+    letter-spacing: .5em;
+    color: #101010;
+    display: block;
+    padding-top: 6em;
+    text-shadow: 1px 1px white;
+}
+
+
+#about{
+    padding: 3em;
+  }
+
+#about h1{
+    color:  #046380;
+    font-weight: 500;
+    letter-spacing: .1em;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    
+}
+
+#about .text{
+    color: #898C91;
+    font-size: 1.5em;
+    letter-spacing: .1em;
+    line-height: 2em;
+
+}
+
+#about .thumbnail{
+    border-radius: 0px;
+    padding-top: 6em;
+    box-shadow:0 1px 3px rgba(0,0,0,.12);
+}
+
+#about .caption{
+    padding: 2em;
+}
+
+#about .glyphicon{
+    color: #046380;
+    font-size: 2em;
+    text-align: center;
+}
+
+#about .item{
+    text-align: center;
+}
+
+#about h3{
+    color: #7E8186;
+    font-weight: 100;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+#about p{
+    color: #7F8085;
+    line-height: 1.8em;
+}
+
+
+#contact {
+    padding: 3em;
+    
+    
+}
+
+#contact h1{
+    color:  #046380;
+    font-weight: 500;
+    letter-spacing: .1em;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+#contact p{
+    color: #898C91;
+    font-size: 1.5em;
+    letter-spacing: .1em;
+    line-height: 2em;
+}
+
+form{
+    background-color:#fff;
+    padding-bottom: 3em;
+    letter-spacing: .1em;
+    line-height: 1.4em;
+}
+
+.form .form-group input{
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: .1em solid gray;
+    text-align: center;
+    background-color: #fff;
+    color: #101010;
+    font-size: 1.2em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    margin-top: 2em;
+}
+
+.form .form-group textarea{
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: .1em solid gray;
+    text-align: center;
+    background-color: #fff;
+    color: #101010;
+    font-size: 1.2em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    margin-top: 2em;
+}
+
+.form button{
+  /*  background-color: #091114;
+    color: #fff; */
+    text-transform: uppercase;
+    font-size: 1.5em;
+    padding: 0.5em;
+    border-radius: 0px;
+    letter-spacing: .2em;
+} 
+
+
+p:first-letter{
+    text-transform: capitalize;
+}
+
+
+footer{
+
+    background-color: #385D7A;
+    box-shadow:0 1px 3px rgba(0,0,0,.12);
+    color: #fff;
+    clear: both;
+    padding: 1em;
+}
+
+footer .glyphicon , a{
+    color: #dedede;
+}
+
+footer h3{
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    letter-spacing: .1em;
+}
+
+footer p{
+    padding-top: 2em;
+    color: gray;
+    font-size: 1.2em;
+}
+
+.footer-estilo{
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    letter-spacing: .1em;
+}
+
+.glyphicon-triangle-top{
+    font-size: 3em;
+    color: #fff;
+}
